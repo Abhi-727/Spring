@@ -26,7 +26,7 @@ public class BankRunner implements CommandLineRunner {
 		bkacc.setHolderName("KavyaSri");
 		
 		Account acc = new Account();
-		acc.setAccId(1224);
+//		acc.setAccId(1224);
 		acc.setAacType("Savings");
 		acc.setAccNumb(1457237890L);
 		
@@ -36,7 +36,7 @@ public class BankRunner implements CommandLineRunner {
 		System.out.println(result);*/
 		
 		//retreiving the data
-		
+		/*
 		Account acc1 = new Account();
 		acc1.setAccId(1224);
 		acc1.setAacType("Savings");
@@ -44,6 +44,7 @@ public class BankRunner implements CommandLineRunner {
 		
 		Optional<BankAccount> bnkfetch=bkser.fetchDetails(acc1);
 		System.out.println(bnkfetch.get());
+		*/
 	}
 
 }
